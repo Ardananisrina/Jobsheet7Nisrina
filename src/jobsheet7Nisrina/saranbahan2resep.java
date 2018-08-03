@@ -43,14 +43,14 @@ public class saranbahan2resep {
         if(bahan2 >= 1 && bahan2 <= 3);
         {
             if(bahan1==1)
-                switch(bahan1)
+                switch(bahan2)
                 {
                     case 1 : System.out.println("anda dapat membuat milk shake banana"); break;
                     case 2 : System.out.println("anda dapat membuat pisang goreng"); break;
-                    case 3 : System.out.println("anda bisa membuat pisang rebus"); break;
+                    case 3 : System.out.println("anda bisa membuat pisang rebus");
                 }
             else
-                switch(bahan1)
+                switch(bahan2)
                 {
                     case 1 : System.out.println("anda dapat membuat telur mata sapi"); break;
                     case 2 : System.out.println("anda dapat membuat sandwich telur"); break;
