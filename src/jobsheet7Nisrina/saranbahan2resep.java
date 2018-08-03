@@ -14,7 +14,13 @@ public class saranbahan2resep {
         String identitas = "Nisrina Izdihar / XRPL5 / 32";
         System.out.println("identitas : " + identitas);
         
+        Scanner scanner = new Scanner(System.in);
         
+        System.out.println("bahan pertama : ");
+        System.out.println("1. pisang");
+        System.out.println("2. telur");
+        System.out.print("masukkan no pilihan anda : ");
+        int bahan1 = scanner.nextInt();
     }
     
 }
