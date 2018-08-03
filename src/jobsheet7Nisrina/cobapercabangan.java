@@ -76,6 +76,12 @@ public class cobapercabangan {
             case 5 : System.out.println("nilai a => 5"); break;
             default : System.out.println("nilai a bukan antara");break;
     }
+        int nilai;
+        System.out.println("\nNilai Anda ? ");
+        nilai = Scanner.nextInt();
+        
+        String grade = (nilai < 75) ? "belum kompeten" : "kompeten";
+        System.out.println(nilai + " => " + grade);
     
 }
 }
